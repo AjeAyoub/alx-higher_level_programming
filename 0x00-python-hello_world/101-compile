@@ -1,6 +1,2 @@
 #!/bin/bash
-PYFILE="${PYFILE}"
-PYFILEC="${PYFILE%.*}.pyc"
-echo "Compiling ${PYFILE} ..."
-python3 -m compileall "${PYFILE}"
-mv "${PYFILEC}" "${PYFILEC,,}"
+python3 -m compileall -b $PYFILE i
