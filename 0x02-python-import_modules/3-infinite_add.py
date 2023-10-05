@@ -8,6 +8,5 @@ if __name__ == "__main__":
     result = 0
 
     for i in range(count_numbers):
-        i += 1
-        result = result +  int(numbers[i])
+        result = result +  int(numbers[i + 1])
     print("{}".format(result))
