@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+'''program that prints the result of the addition of all arguments'''
 if __name__ == "__main__":
     import sys
     numbers = sys.argv
