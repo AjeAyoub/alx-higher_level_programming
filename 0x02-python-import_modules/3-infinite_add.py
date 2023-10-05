@@ -9,4 +9,4 @@ if __name__ == "__main__":
     for i in range(count_numbers):
         i += 1
         result = result +  int(numbers[i])
-    print(result)
+    print("{}".format(result))
