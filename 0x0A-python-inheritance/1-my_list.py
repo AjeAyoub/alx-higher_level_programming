@@ -20,4 +20,4 @@ class MyList(list):
         Purpose:
             Prints the sorted elements of the list
         '''
-        print(sorted(self))  # Prints the elements of the list in sorted order
+        print(sorted(self))
