@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+'''python'''
 
 def lookup(obj):
-    return sorted(dir(obj))
+    '''lookupdef'''
+    return dir(obj)
