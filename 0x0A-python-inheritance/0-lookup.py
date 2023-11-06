@@ -2,5 +2,8 @@
 '''python'''
 
 def lookup(obj):
-    '''lookupdef'''
+    '''lookupdef
+    args:
+    obj : object to list
+    '''
     return dir(obj)
