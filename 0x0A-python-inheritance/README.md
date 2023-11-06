@@ -1,6 +1,6 @@
 # Learning Objectives
 
-## General
+# General
 * Why Python programming is awesome
 * What is a superclass, baseclass or parentclass
 * What is a subclass
