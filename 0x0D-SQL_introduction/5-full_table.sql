@@ -1,4 +1,3 @@
-/* Show the full description of the first_table */
-USE hbtn_0c_0;
+-- Show the full description of the first_table --
 
-SELECT * from first_table;
+SHOW CREATE TABLE first_table;
